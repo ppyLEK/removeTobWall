@@ -13,11 +13,11 @@ import net.runelite.client.plugins.PluginDescriptor;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Tob Wall Remover",
-	description = "Removes roofs and other scenery at tob bank. Re-entering tob bank required.",
+	name = "Tob Bank Floors",
+	description = "Removes upper floors at tob bank. Re-entering tob bank required for changes to apply.",
 	tags = {"tob","theatre of blood","theater of blood"}
 )
-public class RemoveTobWall extends Plugin
+public class RemoveUpperFloorsTobPlugin extends Plugin
 {
 
 	@Inject
